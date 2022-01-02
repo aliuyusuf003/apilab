@@ -16,6 +16,7 @@ $data = json_decode($response, true);
 
 print_r($data);
 /*
+// for retrieving collections
 foreach ($data as $gist) {
     
     echo $gist["id"], " - ", $gist["description"], "\n";

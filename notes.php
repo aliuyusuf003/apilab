@@ -17,5 +17,16 @@
 // 404 --resource not found 
 // 401 --authentication required 
 
+// 200 range --OK
+// 400 range --a problem with the request
+// 500 range -- a problem with the server
+
+
 // The response code tells us how the request not so we can process the request accordingly.
+
+// Request has 
+// url,headers,method,body or payload,
+
+//Response has
+// headers,body or payload, status code .
 

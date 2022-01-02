@@ -1,11 +1,13 @@
 <?php
 
 $ch = curl_init();
-
+//Request headers
 $headers = [
-    "Authorization: Client-ID JeZ5qJv3lekIyD0w05_GWK4sfqEYxnEG1IoMvHewhbo"
+    "Authorization: Client-ID JeZ5qJv3lrdfdfdfekIyD0w05_GWK4sfqEYxnEG1IoMvHewhbo"
 ];
 
+
+// response headers
 $response_headers = [];
 
 $header_callback = function($ch, $header) use (&$response_headers) {
