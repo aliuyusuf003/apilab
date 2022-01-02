@@ -1,19 +1,16 @@
 <?php
-
-
-
 $ch = curl_init();
 
 $headers = [
     "Authorization: token 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",
-    // "User-Agent: aliuyusuf003"
+    "User-Agent: APILAB"
 ];
 
 curl_setopt_array($ch, [
     CURLOPT_URL => "https://api.github.com/user/starred/httpie/httpie", // check if a repo is starred.
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_HTTPHEADER => $headers,
-    CURLOPT_USERAGENT => "aliuyusuf003",
+    // CURLOPT_USERAGENT => "aliuyusuf003",
     // CURLOPT_HEADER => true // allows us to see the api response headers
 ]);
 
