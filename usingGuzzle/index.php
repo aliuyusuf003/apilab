@@ -6,7 +6,7 @@ $client = new GuzzleHttp\Client;
 
 $response = $client->request("GET", "https://api.github.com/user/repos", [
     "headers" => [
-        "Authorization" => "token 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",
+        "Authorization" => "token ghp_UTg6ZRGsirijiojfiojoGmPNDZ0iWkXEvMczfNs80RF3Of",
         "User-Agent" => "aliuyusuf003"
     ]
 ]);
