@@ -21,7 +21,7 @@
 // 400 range --a problem with the request
 // 500 range -- a problem with the server
 
-
+// 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
 // The response code tells us how the request not so we can process the request accordingly.
 
 // Request has 
@@ -29,4 +29,9 @@
 
 //Response has
 // headers,body or payload, status code .
+
+// SDK can also be used to access an api rather than the direct http call.
+// Using SDK depends on the sdk vendors e.g Amazon sdk, stripe sdk ,etc.
+
+// stripe yusufgenius03@gmail.com /az453fgfhdnjji
 
