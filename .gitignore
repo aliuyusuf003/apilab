@@ -1,3 +1,4 @@
 ./notes.php
 usingGuzzule/vendor/
 vendor/
+./.gitignore
