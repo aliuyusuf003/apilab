@@ -6,8 +6,8 @@ $client = new GuzzleHttp\Client;
 
 $response = $client->request("GET", "https://api.github.com/user/repos", [
     "headers" => [
-        "Authorization" => "token YOUR_TOKEN",
-        "User-Agent" => "aliu"
+        "Authorization" => "token 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",
+        "User-Agent" => "aliuyusuf003"
     ]
 ]);
 
@@ -15,4 +15,4 @@ echo $response->getStatusCode(), "\n";
 
 echo $response->getHeader("content-type")[0], "\n";
 
-echo substr($response->getBody(), 0, 200), "...\n";
+echo substr($response->getBody(), 0, 200), "...\n";// get first 200 characters
